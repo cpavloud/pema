@@ -3,7 +3,7 @@
 #= parameters:
 #=     gene:
 #=        title: marker gene
-#=        description: 'Indicates the marker gene of the study. Currently PEMA supports the analysis of 16S, 12S, 18S, ITS and COI marker genes. Add the name of the marker gene after the underscore ("_")'
+#=        description: 'Indicates the marker gene of the study. Currently PEMA supports the analysis of 16S, 12S, 18S, ITS and COI marker genes. Add the name of the marker gene after the underscore (e.g., gene_16S or gene_COI or gene_ITS).'
 #=        type: string
 #=        required: True
 #=        validation:
