@@ -23,7 +23,7 @@ outputFolderName	test_Swarm_16S
 #
 #=     EnaData:
 #=        title: ENA data format
-#=        description: 'PEMA requires the names of the samples to be in ENA format (e.g., ERR1021912_1.fastq.gz). In that case EnaData would be "Yes". Otherwise, if the raw data are as returned by the Illumina sequencer (e.g. ending in _R1_001.fastq.gz and _R2_001.fastq.gz), PEMA has to make this conversion (EnaData: No) and it will return a mapping file linking the initial filenames to those created for the analysis.'
+#=        description: 'PEMA requires the names of the samples to be in ENA format (e.g., ERR1021912_1.fastq.gz). In that case EnaData would be 'Yes'. Otherwise, if the raw data are as returned by the Illumina sequencer (e.g. ending in _R1_001.fastq.gz and _R2_001.fastq.gz), PEMA has to make this conversion (EnaData: No) and it will return a mapping file linking the initial filenames to those created for the analysis.'
 #=        type: boolean
 #=        required: True
 #=        validation: 
