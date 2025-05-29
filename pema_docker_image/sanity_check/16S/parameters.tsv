@@ -8,14 +8,14 @@
 #=        required: True
 #=        validation:
 #=          - regex: /^gene_(COI|16S|18S|12S|ITS)$/
-gene	gene_16S
+gene=gene_16S
 #
 #=     outputFolderName:
 #=        title: output folder name
 #=        description: Name of the output folder PEMA will save its results
 #=        type: string
 #=        required: True
-outputFolderName	test_16s_fastp_vsearch
+outputFolderName=test_16s_fastp_vsearch
 #
 #=     EnaData:
 #=        title: ENA data format
